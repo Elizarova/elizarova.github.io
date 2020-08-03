@@ -48,6 +48,13 @@
     }
   }
 
+  footer {
+    justify-content: center;
+  }
+}
+
+// Smartphones
+@include mediaSm {
   ul.menu-nav,
   div.menu-branding {
     float: none;
@@ -76,13 +83,6 @@
     }
   }
 
-  footer {
-    justify-content: center;
-  }
-}
-
-// Smartphones
-@include mediaSm {
   main {
     padding: 2rem;
 

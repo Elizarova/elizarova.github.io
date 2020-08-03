@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,300&display=swap");
 
 $primary-color: #fafafa;
 $secondary-color: #5fb4a2;
 $text-color: #404040;
 $show-home-image: true;
-$home-image: url(../img/bkg-2.jpg);
-$background-opacity: 0.7;
+$home-image: url(../img/background.jpg);
 
 @mixin easeOut {
   transition: all 0.3s ease-out;
@@ -17,17 +16,6 @@ $background-opacity: 0.7;
       background: $home-image;
       background-attachment: fixed;
       background-size: cover;
-
-      &:after {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        z-index: -1;
-        background: rgba(#333, $background-opacity);
-      }
     }
   }
 }

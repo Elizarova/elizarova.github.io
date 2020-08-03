@@ -1,5 +1,5 @@
-@import 'config';
-@import 'menu';
+@import "config";
+@import "menu";
 
 * {
   box-sizing: border-box;
@@ -11,7 +11,7 @@ body {
   color: $text-color;
   height: 100%;
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 1.5;
 }
 
@@ -89,7 +89,7 @@ main {
 .about-info {
   display: grid;
   grid-gap: 1rem;
-  grid-template-areas: 'bioimage bio bio';
+  grid-template-areas: "bioimage bio bio";
   grid-template-columns: repeat(3, 1fr);
 
   .bio-image {
@@ -124,7 +124,6 @@ main {
   div {
     flex: 50%;
     padding: 2rem;
-
 
     img {
       max-width: 100%;
@@ -246,4 +245,4 @@ footer {
   }
 }
 
-@import 'mobile';
+@import "mobile";
