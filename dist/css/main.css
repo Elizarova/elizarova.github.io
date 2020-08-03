@@ -289,12 +289,15 @@ footer {
     main .lg-heading {
       line-height: 1;
       margin-bottom: 1rem; }
+    main div {
+      padding: 0 0 2rem 0; }
+    main .about-info {
+      grid-template-areas: "bioimage" "bio";
+      grid-template-columns: 1fr; }
     main .project {
       text-align: left; }
       main .project:nth-child(n) {
         flex-direction: column; }
-      main .project div {
-        padding: 0 0 2rem 0; }
       main .project .project-info {
         border-bottom: 1px solid #e6e6e6; }
     main .form-control {
